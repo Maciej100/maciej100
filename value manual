@@ -5,4 +5,4 @@
 #}
 
 # Using the environment variables exposed by the Jenkins job 
-New-item -Path "C:\temp\value_manual.txt"
+set-content -Path "C:\temp\value_manual.txt"
