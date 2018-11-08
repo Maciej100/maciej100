@@ -5,4 +5,4 @@ if (-not(Test-Path -Path 'C:\temp'))
 }
 
 # Using the environment variables exposed by the Jenkins job 
-Set-Content -Path "C:\temp\$($env:Filename).txt" -Value $env:Message
+new-item -Path "C:\temp\$($env:Filename).txt" -Value $env:Message
