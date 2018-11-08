@@ -11,5 +11,5 @@
 #$filename = $date + ".txt"
 #New-Item -Path C:\temp -Name $filename
 
-#New-Item -Path C:\temp -Name filemanual.txt
-New-item -Path "C:\files\value manual.txt"
+New-Item -Path C:\temp -Name filemanual.txt
+#New-item -Path "C:\files\value manual.txt"
