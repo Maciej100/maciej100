@@ -15,5 +15,5 @@
 
 ### next time ####
 
-set-content -Path C:\temp -Name value_manual.txt
+new-item -Path C:\temp -Name value manual.txt
 #New-item -Path "C:\files\value manual.txt"
