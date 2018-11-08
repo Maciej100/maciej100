@@ -15,5 +15,5 @@
 
 ### next time ####
 
-new-item -Path C:\temp -Name manual.txt
+new-item -Path C:\temp -Name value manual.txt
 #New-item -Path "C:\files\value manual.txt"
