@@ -1,5 +1,5 @@
 Create Temp Directory
-if (-not(Test-Path -Path 'C:\temp1'))
+if (-not(Test-Path -Path 'C:\temp'))
 {
-    New-Item -Path 'C:\temp1' -ItemType directory
+    New-Item -Path 'C:\temp' -ItemType directory
 }
