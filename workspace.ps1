@@ -4,4 +4,4 @@
 
 $information = get-windowsfeature
 
-out-file -filepath .\ -inputobject $information
+out-file -filepath .\output.txt -inputobject $information
