@@ -2,6 +2,6 @@
 #get-windowsfeature | out-file .\features.txt
 #get-windowsfeature | new-item -path "c:\temp\features.txt"
 
-$information = get-windowsfeature
+$information = Get-WindowsFeature
 
-out-file -filepath .\output.txt -inputobject $information
+out-file -filepath ".\output.txt" -inputobject $information
